@@ -1,0 +1,132 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background-color:#FEEBF6;
+    overflow-x: hidden;
+}
+
+nav{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    font-family:"Itim", cursive;
+    padding-bottom:14px;
+    padding-top:15px;
+    font-size:20px;
+    padding-left:16px;
+    background-color: #FFFBDE;
+    color:#FB4141;
+    margin-bottom:68px;
+}
+#hero{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    text-align:center;
+    font-size: 40px;
+    font-family: 'Poetsen One';
+    color:#6A0066;
+}
+#demarcator{
+    display:flex;
+    margin-bottom:31px;
+    gap:25px;
+    justify-content:space-between;
+    align-items:center;
+}
+#time-flies > .heading > img{
+    width:55px;
+    height:55px;
+}
+#wishes > .heading > img{
+    width:45px;
+    height:45px;
+}
+#time-flies > .heading > h2{
+    font-size: 30px;
+    font-family: 'Itim';
+    color:#6A0066;
+    margin:0;
+    padding:0;
+}
+#wishes > .heading > h2{
+    font-size: 30px;
+    font-family: 'Itim';
+    color:#6A0066;
+    margin:0;
+    padding:0;
+}
+#images img{
+    max-height:191px;
+    max-width:214px;
+    margin:0;
+    padding:0;
+}
+ol{
+    padding:0;
+    list-style-image: url("assets/birthday-card-svgrepo-com.svg");
+    line-height: normal;
+}
+li{
+    font-family: "Itim";
+    font-size:22px;
+    color:#6A0066;
+}
+#wishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    margin-top:50px;
+    margin-bottom:50px;
+    width:100%;
+    font-size: 15px;
+    text-align: center;
+    color:rgba(255, 112, 157, 0.72);
+    font-family: "Itim";
+}
+#images img:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px #6A0066);
+}
+section{
+    margin-top:59px;
+}
+#images{
+    padding:20px;
+    padding-left:35px;
+    padding-right:35px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:6px;
+    text-align: center;
+}
+#time-flies > p{
+    font-size: 16px;
+    font-family: 'Itim';
+    color:#FB4141;
+}
+#time-flies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#demarcator img{
+    width:50px;
+    height:50px;
+}
+h3{
+    margin:0;
+    padding: 0;
+}
+#hero img{
+    width:165px;
+    height:165px;
+}
